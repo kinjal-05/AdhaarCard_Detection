@@ -36,4 +36,39 @@ A **Flask and React-based** system for **Aadhaar card data extraction and valida
 
 ---
 
+###
+---
+
+## ⚙️ Installation & Setup
+
+### 🔹 Backend (Flask)
+#### 1️⃣ Install dependencies  
+```sh
+cd backend
+pip install -r requirements.txt
+```
+
+### 2️⃣ Start Flask server
+```sh
+python app.py
+```
+Server runs on http://localhost:8080
+
+### 🔹 Frontend (React)
+
+### 1️⃣ Install dependencies
+```sh
+cd frontend
+npm install
+```
+
+### 2️⃣ Start React app
+```sh
+npm start
+```
+Frontend runs on http://localhost:3000
+
+
+
+
 
