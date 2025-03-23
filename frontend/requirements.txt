@@ -1,0 +1,8 @@
+flask
+gunicorn
+pymongo
+flask-cors
+opencv-python
+easyocr
+numpy
+regex
