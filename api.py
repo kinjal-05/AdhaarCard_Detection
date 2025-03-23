@@ -11,9 +11,9 @@ from flask_cors import CORS
 app = Flask(__name__)
 CORS(app) 
 # MongoDB configuration
-app.config['MONGO_URI'] = 'mongodb://localhost:27017/KINJALVOTINGSYSTEM'
+app.config['MONGO_URI'] = 'mongodb+srv://kinjalmistry125:kinjalmistry125@kinjal.lhf8v.mongodb.net/?retryWrites=true&w=majority&appName=kinjal'
 client = MongoClient(app.config['MONGO_URI'])
-db = client['KINJALVOTINGSYSTEM']
+db = client['test']
 aadhaar_collection = db['aadhaar_records']
 
 # Setup logging
