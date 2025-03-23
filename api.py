@@ -107,4 +107,4 @@ def extract_aadhaar_api():
     return jsonify({"error": "Aadhaar number could not be extracted."}), 400
 
 if __name__ == '__main__':
-    app.run(debug=True, host='0.0.0.0', port=8080) 
+    app.run(debug=True, host='0.0.0.0', port=5000) 
