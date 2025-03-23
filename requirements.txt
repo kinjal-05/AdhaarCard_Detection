@@ -1,7 +1,8 @@
 flask
-easyocr
-opencv-python
+gunicorn
 pymongo
 flask-cors
+opencv-python
+easyocr
 numpy
 regex
